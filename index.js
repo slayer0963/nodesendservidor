@@ -10,7 +10,7 @@ const app = express();
 conectarDB();
 
 //puerto de la app
-const port = process.env.port || 4000;
+const port = process.env.PORT || 4000;
 
 //opciones de cors para peticiones de una url especifica
 const opcionesCors = {
