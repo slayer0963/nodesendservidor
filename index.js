@@ -16,7 +16,7 @@ const port = process.env.port || 4000;
 const opcionesCors = {
     origin: process.env.FRONTEND
 }
-
+console.log(process.env.FRONTEND);
 //habilitar cors
 app.use(cors(opcionesCors));
 
