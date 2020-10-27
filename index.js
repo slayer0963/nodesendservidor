@@ -18,7 +18,7 @@ const opcionesCors = {
 }
 console.log(process.env.FRONTEND);
 //habilitar cors
-app.use(cors());
+app.use(cors(opcionesCors));
 
 //habilitar el json
 app.use(express.json());
